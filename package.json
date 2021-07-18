@@ -1,0 +1,22 @@
+{
+  "name": "fastfeet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zexmandev/fastfeet.git",
+  "author": "José Alves <dev@alvesjose.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.0"
+  }
+}
